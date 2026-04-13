@@ -5,6 +5,7 @@ def get_domain(mapping: dict) -> set:
     """Return the domain X (all inputs of the function)."""
     # === TODO ===
     # Your code here
+    return set( mapping.keys() )
     pass
     # === END TODO ===
 
