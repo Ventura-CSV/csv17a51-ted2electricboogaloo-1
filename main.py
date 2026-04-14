@@ -51,5 +51,6 @@ def is_bijective(mapping: dict, target: set) -> bool:
     """Return True if f is both injective and surjective."""
     # === TODO ===
     # Your code here
+    return is_injective( mapping ) and is_surjective( mapping, target )
     pass
     # === END TODO ===
